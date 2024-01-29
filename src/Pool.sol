@@ -4,7 +4,7 @@ pragma solidity 0.8.23;
 /// @title Pool
 /// @author Ed Sabhin
 
-import "@openzeppelin/contracts/access/Ownable.sol";
+import {Ownable} from "../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
 
 error CollectIsFinished();
 error GoalAlreadyReached();
